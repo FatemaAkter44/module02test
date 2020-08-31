@@ -11,4 +11,19 @@ public class StringAPI {
      * by reading your comments/documents
      *
      * */
+
+    //String is a sequeence of carecter, constant, String is a class, difftrnt than other data type.
+    // we can make object of it using new kew worrd.
+    // we can use it as a array which mean we can get what ever we need using the index
+    // there is many inbuilt methodes to manupulate String data,
+    public static void main(String[] args) {
+        String name ="Fatema";
+        String name1 =name.toUpperCase();
+        System.out.println(name1);
+
+        int size = name.length();
+        System.out.println(size);
+
+
+    }
 }
