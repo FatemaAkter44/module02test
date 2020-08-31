@@ -15,9 +15,13 @@ public abstract class PreNokia1100 implements SymbianPhone {
      * */
 
     public void sendText() {
-
+        String text = "Fatema, go to sleep, your batery almost down, 4 night without sleep...";
+        System.out.println(text);
     }
 
-    public abstract void makeCall();
-
+    public void makeCall(){
+        System.out.println("calling....");
+    }
+    public abstract void display();
+//Declare and assign value to a String instance variable called nameOfTheClass >> whats that mean?
 }

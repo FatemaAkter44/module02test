@@ -8,11 +8,15 @@ public interface SymbianPhone {
      *
      * Declare 3 methods sendText(), makeCall(), contactList()
      * Can a method contains method body in Interface?
-     * Ans:
+     * Ans: yes from java 8, with a a default key word we can use a method body in interface
      *
      * */
 
     public void sendText();
 
     public void makeCall();
+    default public void contactList(){
+        String name ="Fatema";
+        System.out.println("calling " + name);
+    }
 }
